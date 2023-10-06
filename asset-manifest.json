@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "//wosalee20.github.io/Far-Away/static/css/main.fdc828fe.css",
+    "main.js": "//wosalee20.github.io/Far-Away/static/js/main.0d5a5ddb.js",
+    "index.html": "//wosalee20.github.io/Far-Away/index.html",
+    "main.fdc828fe.css.map": "//wosalee20.github.io/Far-Away/static/css/main.fdc828fe.css.map",
+    "main.0d5a5ddb.js.map": "//wosalee20.github.io/Far-Away/static/js/main.0d5a5ddb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fdc828fe.css",
+    "static/js/main.0d5a5ddb.js"
+  ]
+}
