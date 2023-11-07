@@ -4,6 +4,7 @@ const initialItems = [
   { id: 2, description: "Socks", quantity: 12, packed: false },
 ];
 */
+/* Original styles here */
 
 @import url("https://fonts.googleapis.com/css2?family=Monoton&family=Quicksand:wght@500;700&display=swap");
 
@@ -137,3 +138,63 @@ input[type="checkbox"] {
 	font-weight: 700;
 	padding: 3.2rem 0;
 }
+
+@media (max-width: 768px) {
+	/* Styles for screens with a maximum width of 768px (e.g., tablets) */
+	body {
+		font-size: 2rem; /* Adjust font size for smaller screens */
+	}
+
+	h1 {
+		font-size: 6rem; /* Adjust font size for smaller screens */
+	}
+
+	.app {
+		grid-template-rows: auto auto 1fr; /* Remove the bottom navigation for smaller screens */
+	}
+
+	.add-form {
+		flex-direction: column; /* Stack form elements in a column for smaller screens */
+		gap: 1rem;
+	}
+
+	h3 {
+		margin-right: 0; /* Remove margin for smaller screens */
+	}
+}
+
+@media (max-width: 480px) {
+	/* Styles for screens with a maximum width of 480px (e.g., smartphones) */
+	h1 {
+		font-size: 4rem; /* Further adjust font size for smaller screens */
+		word-spacing: 20px;
+	}
+
+	.add-form button {
+		padding: 1rem 2.4rem; /* Adjust button padding for smaller screens */
+	}
+
+	.list {
+		padding: 2rem 0; /* Reduce padding for the list section */
+		gap: 1rem;
+	}
+
+	.list ul {
+		width: 100%; /* Make the list take the full width */
+	}
+
+	.list li {
+		flex-direction: column; /* Stack list items in a column for smaller screens */
+		gap: 0.5rem;
+	}
+
+	.list li button {
+		font-size: 1.4rem; /* Adjust font size for list item buttons */
+	}
+
+	.stats {
+		padding: 2rem 0; /* Reduce padding for the stats section */
+	}
+}
+
+/* Additional media queries and adjustments as needed */
