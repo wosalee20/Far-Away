@@ -165,6 +165,9 @@ input[type="checkbox"] {
 
 @media (max-width: 480px) {
 	/* Styles for screens with a maximum width of 480px (e.g., smartphones) */
+	.app {
+		height: 100%;
+	}
 	h1 {
 		font-size: 4rem; /* Further adjust font size for smaller screens */
 		word-spacing: 20px;
